@@ -11,6 +11,7 @@
 
 <div class="wrapper">
 <h1>テキスタイルについて<br>常設展示のある施設を教えてください</h1>
+<p>結果は<a href="read.php">こちらから</a></p>
 <form action="write.php" method="post">
 <h2>施設名</h2>
 <p class="answer"><input type="text" name="facility_name"></p>
@@ -79,16 +80,16 @@
 <h2>休日</h2>
 <p class="answer"><input type="text" name="closed_day"></p>
 
-<h2>展示タイプ</h2>
+<!-- <h2>展示タイプ</h2>
 <p class="answer quarter"><input type="checkbox" name="exhibition_type1">模型展示
 <input type="checkbox" name="exhibition_type2">素材展示
 <input type="checkbox" name="exhibition_type3">体験展示
-<input type="checkbox" name="exhibition_type4">パネル展示</p>
+<input type="checkbox" name="exhibition_type4">パネル展示</p> -->
 
 <h2>展示内容について</h2>
 <p class="answer"><textarea name="exhibition_info" cols="30" rows="10"></textarea></p>
-<h2>おすすめ度</h2>
-<p class="answer"><input type="range" name="recommend"></p>
+<!-- <h2>おすすめ度</h2>
+<p class="answer"><input type="range" name="recommend"></p> -->
     <button type="submit">送信</button>
     </form>
 
