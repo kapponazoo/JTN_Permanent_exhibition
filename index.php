@@ -17,9 +17,9 @@
 <p class="answer"><input type="text" name="facility_name"></p>
 
 <h2>都道府県</h2>
-<p class="answer"><select name="pref">
+<select name="pref"class="answer">
   <option value="" selected>都道府県</option>
-  <o<p class="answer">ption value="北海道">北海道</option>
+  <option value="北海道">北海道</option>
   <option value="青森県">青森県</option>
   <option value="岩手県">岩手県</option>
   <option value="宮城県">宮城県</option>
@@ -67,7 +67,7 @@
   <option value="鹿児島県">鹿児島県</option>
   <option value="沖縄県">沖縄県</option>
 </select>
-</p>
+
 <h2>住所</h2>
 <p class="answer"><input type="text" name="add"></p>
 

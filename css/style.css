@@ -30,6 +30,11 @@
     margin-bottom:10px;
     
   }
+  .half{ display: flexbox;}
+  .half input{
+    width: 40%;
+ 
+  }
   input:first-of-type
   {
     margin-top:35px;
