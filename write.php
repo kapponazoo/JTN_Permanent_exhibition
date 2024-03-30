@@ -12,10 +12,9 @@ $exhibition_type3 = $_POST["exhibition_type3"];
 $exhibition_type4 = $_POST["exhibition_type4"];
 $exhibition_info = $_POST["exhibition_info"];
 $recommend = $_POST["recommend"];
-$s= '"';
-$c = '","';
-$str = 
-$s.$facility_name.$c.
+
+$c = ",";
+$str = $facility_name.$c.
 $pref.$c.
 $add.$c.
 $url.$c.
@@ -27,7 +26,7 @@ $exhibition_type2.$c.
 $exhibition_type3.$c.
 $exhibition_type4.$c.
 $exhibition_info.$c.
-$recommend.$s
+$recommend
 ;
 
 $file = fopen("data.csv","a");
